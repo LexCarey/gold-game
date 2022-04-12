@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.container {
+	padding: 50px;
+}
+
+.gold {
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.count {
+	border: black solid;
+	border-width: 2px 2px;
+	text-align: left;
+	height: auto;
+	width: auto;
+	padding: 0 15px 0 2px;
+}
+
+.gold h2 {
+	margin-right: 10px;
+}
+
+.findGold {
+	display: flex;
+	justify-content: space-between;
+}
+
+.box {
+	width: 230px;
+	height: 230px;
+	padding: 15px;
+	text-align: center;
+	border: black solid;
+	border-width: 2px 2px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.activities {
+	font-size: 20px;
+	border: black solid;
+	border-width: 2px 2px;
+	width: 100%;
+	height: 230px;
+	overflow-y: scroll;
+}
+
+.complete {
+	color: green;
+}
+
+.failed{
+	color: red;
+}
